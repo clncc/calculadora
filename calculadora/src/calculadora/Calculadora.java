@@ -20,6 +20,7 @@ public class Calculadora {
 
         System.out.println(sumar(numero, numero2));
         System.out.println(restar(numero, numero2));
+        System.out.println(sumar(6, 9));
     }
 
     public static int sumar(int a, int b) {
