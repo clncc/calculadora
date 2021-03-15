@@ -17,11 +17,20 @@ public class Calculadora {
     public static void main(String[] args) {
         int numero = 2;
         int numero2 = 5;
-        
+
         System.out.println(sumar(numero, numero2));
+        System.out.println(restar(numero, numero2));
     }
 
     public static int sumar(int a, int b) {
         return a + b;
+    }
+
+    public static int restar(int a, int b) {
+        if (a > b) {
+            return a - b;
+        } else {
+            return b - a;
+        }
     }
 }
